@@ -1,0 +1,19 @@
+.Actions {
+    font-family: $f-text;
+    font-size: 12px;
+    width: 90%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+        font-family: $f-text;
+    }
+}
+
+@media (min-width: 700px) {
+    .Actions {
+        width: 800px;
+    }
+}

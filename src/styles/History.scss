@@ -1,0 +1,37 @@
+.History {
+    width: 90%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    .HistoryList{
+        color: $c-grey;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    p { 
+        margin: 5px; 
+        cursor: pointer;
+        transition: 0.2s linear;
+        padding: 5px;
+    }
+    p:hover { background-color: $c-fg; color: $c-bg; }
+}
+
+@media (min-width: 700px) {
+    .History {
+        width: 800px;
+    }
+
+    .HistoryList {
+        font-size: 10px;
+    }
+}

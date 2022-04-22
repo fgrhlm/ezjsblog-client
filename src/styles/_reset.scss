@@ -1,0 +1,30 @@
+html,body,div { padding: 0; margin: 0; }
+
+h1,h2,h3,h4,h5,h6 { font-family: $f-title; padding: 0; margin: 0;}
+
+html, body {
+    background-color: $c-bg;
+    color: $c-fg;
+    font-family: $f-text;
+}
+
+body { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid $c-fg;
+    border-radius: 10px;
+}
+
+a, a:visited, a:hover, a:active {
+    color: $c-fg;
+}
+@media (min-width: 700px) {
+    hr {
+        width: 800px;
+    }
+}
