@@ -1,0 +1,12 @@
+.HomeButton {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 15px;
+    
+    a {
+        font-size: 8px;
+    }
+}
