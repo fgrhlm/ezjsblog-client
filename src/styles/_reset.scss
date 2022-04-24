@@ -6,6 +6,7 @@ html, body {
     background-color: $c-bg;
     color: $c-fg;
     font-family: $f-text;
+    overflow: hidden;
 }
 
 body { 
@@ -22,6 +23,12 @@ hr {
 
 a, a:visited, a:hover, a:active {
     color: $c-fg;
+}
+
+code {
+    background-color: $c-grey;
+    color: $c-bg;
+    padding: 0px 2px 0px 2px;
 }
 @media (min-width: 700px) {
     hr {

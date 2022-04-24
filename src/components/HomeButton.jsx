@@ -6,8 +6,10 @@ const HomeButton = () => {
 
     return(
         <div className="HomeButton">
-            <h1>{blogInfo.name}</h1>
-            <a href={`mailto:${blogInfo.contact}`}>{blogInfo.contact}</a>
+            <div className="container">
+                <h1>{blogInfo.name}</h1>
+                <a href={`mailto:${blogInfo.contact}`}>{blogInfo.contact}</a>
+            </div>
             <hr />
         </div>
     );
